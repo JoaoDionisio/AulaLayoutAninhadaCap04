@@ -21,10 +21,10 @@
         android:weightSum="2">
 
         <TextView
-            android:layout_width="8dp"
+            android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"
-            android:layout_weigh="0.6"
+            android:layout_weight="0.6"
             android:gravity="center_vertical"
             android:paddingLeft="10dp"
             android:text="Nome: "
@@ -32,7 +32,7 @@
 
         <EditText
             android:id="@+id/primeiro_nome"
-            android:layout_width="8dp"
+            android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:layout_weight="1.4"
@@ -42,6 +42,99 @@
             android:paddingLeft="10dp"
             android:singleLine="true"
             android:textColor="@color/preto"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Telefone: "
+            android:textColor="@color/preto"/>
+
+        <EditText
+            android:id="@+id/primeiro_telefone"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.4"
+            android:background="@color/verde"
+            android:hint="Digite seu telefone:"
+            android:imeOptions="actionNext"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/preto"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.6"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="E-mail: "
+            android:textColor="@color/preto"/>
+
+        <EditText
+            android:id="@+id/primeiro_email"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.4"
+            android:background="@color/verde"
+            android:hint="Digite seu e-mail:"
+            android:imeOptions="actionNext"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/preto"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/vermelho"
+            android:text="Cancelar"
+            android:textColor="@color/branco"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@color/vermelho"
+            android:text="Enviar"
+            android:textColor="@color/branco"/>
 
     </LinearLayout>
 
